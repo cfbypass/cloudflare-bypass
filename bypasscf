@@ -1,0 +1,25 @@
+# Importing Required Modules
+import socket
+import time
+import os
+
+# Defining The Main Function
+
+def main():
+    os.system('cls')
+    print("""
+                                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                        X    CloudFlare Bypass Script      X 
+                                        X              [ V1 ]              X
+                                        X    ---------------------------   X
+                                        X    instagram @cloudflarebypass   X
+                                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    """)
+    site = input("Website: ")
+    bypass = socket.gethostbyname('ssh.' + site)
+    bypass1 = socket.gethostbyname('dns.' + site)
+    print("found " + bypass + " using ssh method\n")
+    print("found " + bypass1 + " using dns method")
+    time.sleep(5)
+    
+main()
