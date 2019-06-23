@@ -1,1 +1,1 @@
-This simple script can find a ip address behind a website with cloudflare.
+This simple script can find a ip behind a website with cloudflare.
